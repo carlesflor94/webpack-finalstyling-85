@@ -1,5 +1,5 @@
-$bgColor: #24292e;
-$text: #fff;
+$bgColor: white;
+$text: black;
 
 @font-face {
   font-family: 'TT Lakes Neue Trial';
@@ -29,3 +29,4 @@ body {
 
 @import './variables.scss';
 @import './blocks/menu.scss';
+@import './blocks/intro.scss';

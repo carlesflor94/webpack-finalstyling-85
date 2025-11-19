@@ -10,6 +10,7 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
+    <!-- Left Menu -->
     <div class="menu">
       <div class="menu__top">
         <div class="menu__header">
@@ -70,5 +71,99 @@
         </nav>
       </div>
     </div>
+
+    <!-- Enf Left Menu -->
+
+    <!-- Intro page -->
+    
+    <div class="intro">
+    
+    <div class="header flex">
+                <div class="header__left flex">
+                    <img src="./img/Menu-icon.svg" alt="" class="icon--menu">
+                    <img src="./img/Logo-group.svg" alt="" class="icon--logo">
+                </div>
+                
+                <div class="header__right flex">
+                    <!--tablet version-->
+                    <img src="./img/call.svg" alt="" class="icon--call tablet-only">
+                    <img src="./img/chat.svg" alt="" class="icon--chat tablet-only">
+                    <img src="./img/profile.svg" alt="" class="icon--profile tablet-only">
+                    <!--end tablet version-->
+
+                    <img src="./img/Repair-icon.svg" alt="" class="icon--repair">
+                    <img src="./img/Status-icon.svg" alt="" class="icon--status">
+                </div>
+
+    </div>
+   
+       
+   
+
+    <div class="container">
+    
+        <div class="title flex">
+        
+            <h1 class="title__text">Services and support</h1>
+            <!--pc version-->
+            <div class="title__actions pc-only">
+                <div class="actions">
+                <p class="title__button pc-only">Submit a request</p>
+                <img src="./img/Repair-icon.svg" alt="" class="icon--repair pc-only">
+                </div>
+                <div class="actions">
+                <p class="title__button pc-only">Repair status</p>
+                <img src="./img/Status-icon.svg" alt="" class="icon--status pc-only">
+                </div>
+            </div>
+            <!--end pc version-->
+        
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#" class="main-nav__current-page">Brands we repair</a></li>
+                <li><a href="#">Devices we repair</a></li>
+                <li><a href="#">Services prices</a></li>
+                <li><a href="#">Addresses of service centres</a></li>
+                <li><a href="#">Special prices</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+        </nav>
+
+        
+        
+        <div class="content">
+           
+             <div class="content__left">
+
+                <p class="content__text">
+                    We are an authorised service centre for Dell equipment repairs. Only with us can you repair your Dell laptop with the official manufacturer's warranty.
+                </p>
+
+                <p class="content__text tablet-only"> <!--adjustment for tablet version-->
+                    We have been successfully operating since 1992 and have earned a reputation as a reliable partner.
+                </p>
+
+                <p class="content__text pc-only">
+                    We are an authorised service centre for Dell equipment repairs. Only with us can you repair your Dell laptop with the official manufacturer's warranty. We have been successfully operating since 1992 and have earned a reputation as a reliable partner, as evidenced by our large number of loyal customers. We take pride in the fact that clients come to us through recommendations and, in turn, recommend us to their family and friends.
+                </p>
+
+                <span class="content__read-more flex">
+                    <img src="./img/arrows.svg" class="img--arrows"><a href="#" class="text--read-more">Read more</a>
+                </span>
+                
+            </div>
+
+            <div class="content__img">
+                <img src="./img/cpsmainimage.svg" alt="" class="imgcps">
+            </div>
+        
+        
+
+    </div>
+
+    </div>
+    <!-- End Intro page-->
   </body>
 </html>
