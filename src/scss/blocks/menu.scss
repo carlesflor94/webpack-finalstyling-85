@@ -10,8 +10,9 @@
   position: fixed;
   overflow-y: auto;
   box-shadow: 5px 0 30px rgba(0, 0, 0, 0.3);
+  background: white;
 
-  .menu nav ul {
+  nav ul {
     list-style: none;
   }
 
@@ -20,12 +21,12 @@
   a {
     text-decoration: none;
     font-weight: 500;
-    color: var(--black-links);
+    color: $black-links;
   }
 
   .web-navigation--selected,
   .language--selected {
-    color: var(--grey);
+    color: $grey;
   }
 
   .web-navigation--next,
@@ -81,7 +82,7 @@
 
   .menu__web-navigation a:hover {
     transform: translateX(20px);
-    border-left: solid 4px var(--pink-logo);
+    border-left: solid 4px $pink-logo;
     padding-left: 10px;
   }
 
@@ -105,6 +106,6 @@
 
   .menu__language a:hover {
     text-decoration: underline;
-    color: var(--pink-logo);
+    color: $pink-logo;
   }
 }

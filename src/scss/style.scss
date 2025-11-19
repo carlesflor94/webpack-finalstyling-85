@@ -26,3 +26,6 @@ body {
   background-color: $bgColor;
   color: $text;
 }
+
+@import './variables.scss';
+@import './blocks/menu.scss';
