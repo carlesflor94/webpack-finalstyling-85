@@ -8,7 +8,8 @@
     font-weight: 700;
     font-size: 28px;
     border-left: solid 4px #41f6d7;
-    padding-left: 12px;
+    /*padding-left: 12px;*/
+    padding: 0px 32px;
   }
 
   .text--read-more {
@@ -59,6 +60,7 @@
 
   .content {
     box-sizing: border-box;
+    padding-bottom: 50px;
   }
 
   .content__img {
@@ -100,7 +102,7 @@
   .main-nav {
     overflow-x: auto;
 
-    padding: 0.5em 0;
+    padding: 10px 22px;
   }
 
   .main-nav ul {

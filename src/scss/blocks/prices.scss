@@ -57,4 +57,29 @@
   .prices__link--img {
     padding-left: 95px;
   }
+
+  .prices__button--order {
+    text-transform: uppercase;
+    background-color: $pink-logo;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 16px;
+    font-family: 'TT Lakes Neue Trial', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    width: 119px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .prices__button--img {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
