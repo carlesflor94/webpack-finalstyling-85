@@ -1,0 +1,15 @@
+.main__footer {
+  background: $grey-1;
+  box-sizing: border-box;
+  padding: 24px 32px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px $blue-1;
+
+  .main__footer--text {
+    font-size: 14px;
+    font-weight: 500;
+    color: $grey-2;
+  }
+}
