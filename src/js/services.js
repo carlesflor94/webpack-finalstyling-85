@@ -1,7 +1,3 @@
-import Swiper from 'swiper'
-import 'swiper/css'
-import 'swiper/css/pagination'
-
 /*show all button*/
 
 const button = document.querySelector('.services__button')

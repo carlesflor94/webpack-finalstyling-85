@@ -1,7 +1,9 @@
-import '../scss/style.scss'
+import Swiper from 'swiper'
+import 'swiper/css'
+import 'swiper/css/pagination'
 
-/* keep editing without js
 import './services.js'
-*/
+
+import '../scss/style.scss'
 
 console.log('It works!')
