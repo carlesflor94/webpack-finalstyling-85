@@ -1,0 +1,60 @@
+.prices {
+  .prices__table {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+  }
+
+  .prices__table tr {
+    text-align: left;
+  }
+
+  .prices__table tbody tr {
+    position: relative;
+  }
+
+  .prices__table tbody tr:not(:last-child)::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: $grey-3;
+    position: absolute;
+    left: 32px;
+    right: 32px;
+    bottom: 0;
+  }
+
+  .prices__table tbody td,
+  .prices__table thead th {
+    padding: 23px 24px;
+  }
+
+  thead {
+    color: $grey-2;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  tbody {
+    background-color: white;
+  }
+
+  .prices__link--text {
+    text-decoration: none;
+    color: $black-links;
+    font-weight: 500;
+  }
+
+  .prices__text {
+    max-width: 421px;
+    width: 100%;
+  }
+
+  .prices__link {
+    display: inline-flex;
+  }
+
+  .prices__link--img {
+    padding-left: 95px;
+  }
+}
