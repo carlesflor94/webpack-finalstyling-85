@@ -1,0 +1,14 @@
+.page {
+  display: flex;
+}
+
+.menu {
+  max-width: 320px;
+  position: fixed;
+}
+
+.intro {
+  flex: 1;
+  margin-left: 320px;
+  width: calc(100% - 320px);
+}

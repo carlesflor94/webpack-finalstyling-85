@@ -19,6 +19,11 @@ $text: black;
   font-weight: 700;
 }
 
+@import './variables.scss';
+@import './blocks/menu.scss';
+@import './blocks/intro.scss';
+@import './blocks/layout.scss';
+
 body {
   padding: 1rem;
   margin: 0;
@@ -26,7 +31,3 @@ body {
   background-color: $bgColor;
   color: $text;
 }
-
-@import './variables.scss';
-@import './blocks/menu.scss';
-@import './blocks/intro.scss';
