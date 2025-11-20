@@ -8,15 +8,6 @@
 
   /*text styles*/
 
-  .header--brands {
-    font-weight: 400;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: $grey-2;
-    margin: 0;
-    padding-left: 32px;
-  }
-
   .services__button--text {
     font-weight: 500;
   }
@@ -26,36 +17,6 @@
   .services {
     max-width: 1120px;
     margin: 0 auto;
-  }
-
-  .services__header {
-    background-image: linear-gradient(to right, $grey-1, white);
-    min-height: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    border-top: 1px solid $blue-1;
-  }
-
-  .services__content {
-    background: $grey-1;
-    box-sizing: border-box;
-    padding: 24px 32px;
-    margin: 0 auto;
-  }
-
-  .services__grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 32px;
-    padding-bottom: 24px;
-    max-height: 176px;
-    overflow: hidden;
-    transition: max-height 0.4s ease;
-  }
-
-  .services__grid.expanded {
-    max-height: 1000px;
   }
 
   .services__grid--box img {
@@ -77,19 +38,6 @@
   }
 
   /*button*/
-
-  .services__button {
-    border: none;
-    background: none;
-    outline: none;
-    display: inline-flex;
-    align-items: center;
-  }
-
-  .services__button:hover {
-    color: $grey-2;
-    opacity: 0.7;
-  }
 
   /*mediaQ for tablet version*/
 

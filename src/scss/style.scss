@@ -20,9 +20,11 @@ $text: black;
 }
 
 @import './variables.scss';
+@import './blocks/shared';
 @import './blocks/menu.scss';
 @import './blocks/intro.scss';
 @import './blocks/services.scss';
+@import './blocks/equipment.scss';
 @import './blocks/layout.scss';
 
 body {
