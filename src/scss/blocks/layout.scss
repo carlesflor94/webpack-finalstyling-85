@@ -1,5 +1,6 @@
 .page {
   display: flex;
+  min-height: 100%;
 }
 
 .menu {
@@ -26,7 +27,7 @@
     transition: filter 0.3s ease;
 
     &.blurred {
-      filter: blur(5px);
+      filter: blur(20px);
       pointer-events: none;
       user-select: none;
     }

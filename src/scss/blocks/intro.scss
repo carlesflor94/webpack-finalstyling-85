@@ -9,7 +9,7 @@
     font-size: 28px;
     border-left: solid 4px #41f6d7;
     /*padding-left: 12px;*/
-    padding: 0px 32px;
+    padding: 0px 16px;
   }
 
   .text--read-more {
@@ -60,7 +60,7 @@
 
   .content {
     box-sizing: border-box;
-    padding-bottom: 50px;
+    padding: 0px 16px 50px;
   }
 
   .content__img {
@@ -102,7 +102,7 @@
   .main-nav {
     overflow-x: auto;
 
-    padding: 10px 22px;
+    padding: 10px 4px;
   }
 
   .main-nav ul {
@@ -340,10 +340,6 @@
     .content__left,
     .content__img {
       flex: 1;
-    }
-
-    .content__left {
-      padding-left: 34px;
     }
 
     .content__img {
