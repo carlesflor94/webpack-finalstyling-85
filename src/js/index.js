@@ -7,8 +7,8 @@ import '../scss/style.scss'
 
 /*show all button*/
 
-const button = document.querySelector('.services__button')
-const grid = document.querySelector('.services__grid')
+const button = document.querySelector('.content__button--common')
+const grid = document.querySelector('.grid--common')
 const icon = button.querySelector('.services__button--icon')
 const text = button.querySelector('.services__button--text')
 

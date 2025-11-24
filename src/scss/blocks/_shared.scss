@@ -36,13 +36,13 @@
   transition: max-height 0.4s ease;
 }
 
-.services__grid.expanded {
+.grid--common.expanded {
   max-height: 1000px;
 }
 
 /* show all button */
 
-.services__button {
+.content__button--common {
   border: none;
   background: none;
   outline: none;
@@ -50,7 +50,7 @@
   align-items: center;
 }
 
-.services__button:hover {
+.content__button--common:hover {
   color: $grey-2;
   opacity: 0.7;
 }
