@@ -13,8 +13,8 @@ Swiper.use([Pagination])
 document.querySelectorAll('.content__button--common').forEach((button) => {
   const container = button.closest('.content--common')
   const grid = container.querySelector('.grid--common')
-  const icon = button.querySelector('.services__button--icon')
-  const text = button.querySelector('.services__button--text')
+  const icon = button.querySelector('.content__button--icon')
+  const text = button.querySelector('.content__button--text')
 
   button.addEventListener('click', () => {
     grid.classList.toggle('expanded')

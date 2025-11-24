@@ -6,12 +6,6 @@
     display: none;
   }
 
-  /*text styles*/
-
-  .services__button--text {
-    font-weight: 500;
-  }
-
   /*layout*/
 
   .services {
@@ -42,12 +36,6 @@
   /*mediaQ for tablet version*/
 
   @media (min-width: 767px) and (max-width: 1118px) {
-    .services {
-      width: 100%;
-      min-width: 768px;
-      margin: 0 auto;
-    }
-
     .services__grid {
       grid-template-columns: repeat(3, 224px);
     }

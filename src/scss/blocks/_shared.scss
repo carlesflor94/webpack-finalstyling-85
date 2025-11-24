@@ -42,6 +42,10 @@
 
 /* show all button */
 
+.content__button--text {
+  font-weight: 500;
+}
+
 .content__button--common {
   border: none;
   background: none;
@@ -53,4 +57,12 @@
 .content__button--common:hover {
   color: $grey-2;
   opacity: 0.7;
+}
+
+/*media Q for tablet version */
+
+@media (min-width: 767px) and (max-width: 1118px) {
+  .grid--common {
+    grid-template-columns: repeat(3, 224px);
+  }
 }
