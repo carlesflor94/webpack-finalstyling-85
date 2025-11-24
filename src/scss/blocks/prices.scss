@@ -145,4 +145,42 @@
     font-weight: 500;
     color: $grey-2;
   }
+
+  /*swiper JS*/
+
+  .swiper {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .swiper-wraper {
+    padding-left: 16px;
+  }
+
+  .swiper-slide {
+    background: white;
+    border: 1px solid $grey-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    max-width: 260px;
+    min-height: 200px;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  .swiper-pagination {
+    margin-top: 16px;
+  }
+
+  .swiper-pagination-bullet {
+    background: #d0d0d0;
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: $grey-2;
+  }
 }

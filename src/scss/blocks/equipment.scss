@@ -23,7 +23,7 @@
   .equipment--text {
     color: $black-links;
     align-self: flex-start;
-    padding: 16px 16px;
+    padding: 16px 0px;
     font-weight: 500;
   }
 
@@ -73,12 +73,15 @@
   }
 
   .swiper-slide {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background: white;
     border: 1px solid $grey-3;
-    min-height: 72px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 240px;
+    min-height: 160px;
     box-sizing: border-box;
     padding: 0 16px;
   }

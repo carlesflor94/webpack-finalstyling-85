@@ -56,6 +56,20 @@ if (document.querySelector('.equipment--mobile')) {
   })
 }
 
+/*swiper for prices*/
+
+if (document.querySelector('.pricesSwiper')) {
+  const pricesSwiper = new Swiper('.pricesSwiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 16,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+    loop: false
+  })
+}
+
 /*hide and show menu for tablet/mobile version*/
 
 const menu = document.querySelector('.menu')
