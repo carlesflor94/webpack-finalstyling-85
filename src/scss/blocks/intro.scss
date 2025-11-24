@@ -45,7 +45,7 @@
     flex-direction: row;
   }
 
-  .header {
+  .intro__header {
     width: 100%;
     min-width: 320px;
     justify-content: space-between;
@@ -165,7 +165,7 @@
 
     /*header adjustments*/
 
-    .header {
+    .intro__header {
       justify-content: space-between;
       align-items: center;
       width: 100%;
@@ -260,7 +260,7 @@
       display: none;
     }
 
-    .header {
+    .intro__header {
       display: none;
     }
 
