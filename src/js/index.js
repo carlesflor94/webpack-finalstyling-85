@@ -1,9 +1,12 @@
 import Swiper from 'swiper'
+import { Pagination } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
 import '../scss/style.scss'
+
+Swiper.use([Pagination])
 
 /*show all button*/
 
