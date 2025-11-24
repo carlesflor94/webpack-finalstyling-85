@@ -12,3 +12,16 @@
   margin-left: 320px;
   width: calc(100% - 320px);
 }
+
+/*media Q for changing layout tablet/phone*/
+
+@media (max-width: 1118px) {
+  .page {
+    display: block;
+  }
+
+  .intro {
+    margin-left: 0;
+    width: 100%;
+  }
+}

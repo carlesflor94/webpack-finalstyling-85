@@ -9,6 +9,10 @@
   overflow-y: auto;
   background: white;
 
+  .icon--close {
+    display: none;
+  }
+
   nav ul {
     list-style: none;
   }
@@ -104,5 +108,16 @@
   .menu__language a:hover {
     text-decoration: underline;
     color: $pink-logo;
+  }
+
+  /*media Q for the menu/button for tablet/phone*/
+
+  @media (max-width: 1118px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 100;
   }
 }
