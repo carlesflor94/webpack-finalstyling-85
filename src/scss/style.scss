@@ -1,3 +1,13 @@
+@import './variables.scss';
+@import './blocks/shared';
+@import './blocks/menu.scss';
+@import './blocks/intro.scss';
+@import './blocks/services.scss';
+@import './blocks/equipment.scss';
+@import './blocks/prices.scss';
+@import './blocks/footer.scss';
+@import './blocks/layout.scss';
+
 $bgColor: white;
 $text: black;
 
@@ -19,18 +29,8 @@ $text: black;
   font-weight: 700;
 }
 
-@import './variables.scss';
-@import './blocks/shared';
-@import './blocks/menu.scss';
-@import './blocks/intro.scss';
-@import './blocks/services.scss';
-@import './blocks/equipment.scss';
-@import './blocks/prices.scss';
-@import './blocks/footer.scss';
-@import './blocks/layout.scss';
-
 body {
-  padding: 1rem;
+  padding: 0;
   margin: 0;
   font-family: 'TT Lakes Neue Trial', sans-serif;
   background-color: $bgColor;
