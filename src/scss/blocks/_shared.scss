@@ -18,14 +18,14 @@
   border-top: 1px solid $blue-1;
 }
 
-.services__content {
+.content--common {
   background: $grey-1;
   box-sizing: border-box;
   padding: 24px 32px 50px;
   margin: 0 auto;
 }
 
-.services__grid {
+.grid--common {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 32px;
