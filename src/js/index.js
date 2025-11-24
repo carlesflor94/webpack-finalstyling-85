@@ -29,10 +29,23 @@ document.querySelectorAll('.content__button--common').forEach((button) => {
   })
 })
 
-/*script swiper mobile version*/
+/*swiper for services*/
 
 if (document.querySelector('.services--mobile')) {
   const swiper = new Swiper('.mySwiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 16,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+    loop: false
+  })
+}
+
+/*swiper for equipment*/
+if (document.querySelector('.equipment--mobile')) {
+  const equipmentSwiper = new Swiper('.equipmentSwiper', {
     slidesPerView: 'auto',
     spaceBetween: 16,
     pagination: {
