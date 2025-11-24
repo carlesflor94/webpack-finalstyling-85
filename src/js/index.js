@@ -7,21 +7,23 @@ import '../scss/style.scss'
 
 /*show all button*/
 
-const button = document.querySelector('.content__button--common')
-const grid = document.querySelector('.grid--common')
-const icon = button.querySelector('.services__button--icon')
-const text = button.querySelector('.services__button--text')
+document.querySelectorAll('.content__button--common').forEach((button) => {
+  const container = button.closest('.content--common')
+  const grid = container.querySelector('.grid--common')
+  const icon = button.querySelector('.services__button--icon')
+  const text = button.querySelector('.services__button--text')
 
-button.addEventListener('click', () => {
-  grid.classList.toggle('expanded')
+  button.addEventListener('click', () => {
+    grid.classList.toggle('expanded')
 
-  if (grid.classList.contains('expanded')) {
-    text.textContent = 'Hide'
-    icon.src = '../img/hide-icon.svg'
-  } else {
-    text.textContent = 'Show all'
-    icon.src = '../img/expand-icon.svg'
-  }
+    if (grid.classList.contains('expanded')) {
+      text.textContent = 'Hide'
+      icon.src = '../img/hide-icon.svg'
+    } else {
+      text.textContent = 'Show all'
+      icon.src = '../img/expand-icon.svg'
+    }
+  })
 })
 
 /*script mobile version*/
