@@ -23,5 +23,12 @@
   .intro {
     margin-left: 0;
     width: 100%;
+    transition: filter 0.3s ease;
+
+    &.blurred {
+      filter: blur(5px);
+      pointer-events: none;
+      user-select: none;
+    }
   }
 }

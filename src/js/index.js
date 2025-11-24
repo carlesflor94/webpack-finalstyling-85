@@ -29,7 +29,7 @@ document.querySelectorAll('.content__button--common').forEach((button) => {
   })
 })
 
-/*script mobile version*/
+/*script swiper mobile version*/
 
 if (document.querySelector('.services--mobile')) {
   const swiper = new Swiper('.mySwiper', {
@@ -42,3 +42,20 @@ if (document.querySelector('.services--mobile')) {
     loop: false
   })
 }
+
+/*hide and show menu for tablet/mobile version*/
+
+const menu = document.querySelector('.menu')
+const menuOpenBtn = document.querySelector('.icon--menu')
+const menuCloseBtn = document.querySelector('.icon--close')
+const intro = document.querySelector('.intro')
+
+menuOpenBtn.addEventListener('click', () => {
+  menu.classList.add('active')
+  intro.classList.add('blurred')
+})
+
+menuCloseBtn.addEventListener('click', () => {
+  menu.classList.remove('active')
+  intro.classList.remove('blurred')
+})
