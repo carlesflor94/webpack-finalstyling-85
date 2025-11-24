@@ -1,6 +1,6 @@
 /*header and container */
 
-.header--brands {
+.header__text--common {
   font-weight: 400;
   font-size: 16px;
   text-transform: uppercase;
@@ -9,7 +9,7 @@
   padding-left: 32px;
 }
 
-.services__header {
+.header--common {
   background-image: linear-gradient(to right, $grey-1, white);
   min-height: 56px;
   display: flex;
